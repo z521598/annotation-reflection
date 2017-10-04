@@ -33,7 +33,7 @@ public class GetAnnoValueTest {
     }
 
     @Test
-    public void testGetMethodAnno2() {
+    public void testGetMethodAnno() {
         Method[] methods = c.getMethods();
         for (Method method : methods) {
             boolean isExist = method.isAnnotationPresent(Description.class);
